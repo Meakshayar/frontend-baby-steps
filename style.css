@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logoimg {
+    width: 100px;
+    height: 100px;
+}
+
+.logotitle {
+    text-align: center;
+}
+
+span {
+    color: rgb(62, 110, 151);
+}
+
+.mainbody {
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.cardimg {
+    height:200px;
+    width:200px;
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 768px) {
+    .card {
+        width: 45%;
+        margin: 20px 2.5%;
+    }
+
+    .logoimg {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media(max-width: 600px) {
+    .mainbody {
+        background-color: azure;
+        text-align: center;
+    }
+
+    .card {
+        display: block;
+        width: 80%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .cardimg {
+        width: 100%;
+        height: auto;
+        margin: 0 auto 10px auto;
+        float: none;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+}
